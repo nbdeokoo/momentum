@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title> 오늘은 뭐 하세요? </title>
+
+    <script src="index.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .test {
+            font-size: 30px;
+        }
+
+        body {background-image: url("http://drive.google.com/uc?export=view&id=1c7DJflkl6RkesYwpFI-0uIZN4JcaZ7Lc");
+        background-position: center;
+
+         
+    }
+
+    .time {
+        font-size: 130px;
+        font-weight: bolder;
+        color: rgb(12, 10, 10);
+    }
+
+    .greeting {
+        font-size: 80px;
+        font-style: italic;
+        color: rgb(12, 10, 10);
+    }
+
+    .todo{
+        font-size: 20px;
+        color: rgb(12, 10, 10);
+    }
+
+    .author{
+        font-size: 30px;
+        font-style: italic;
+        color: rgb(255, 255, 255);
+    }
+
+    .main{
+        width: 100vw;
+        height: 80vh;
+
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: center;
+    }
+
+    .text{
+        width: 100vw;
+        height: 80vh;
+
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .content{
+        color: rgb(255, 255, 255);
+    }
+
+    
+
+    </style>
+
+    <script>
+    </script>
+
+
+</head>
+
+<body>
+<div class="main">
+    <div id="time" class="time">12:31</div>
+    <div class="greeting"> To Do List </div>
+    <div class="todo"> 
+        &nbsp;&nbsp;&nbsp;1. 햇님 작품 챙겨보기 <br/>
+        &nbsp;&nbsp;&nbsp;2. 햇님 예능 찾아보기 <br/>
+        &nbsp;&nbsp;&nbsp;3. 햇님 짤 줍기 <br/><br/><br/>
+        &nbsp;&nbsp;&nbsp;※ 아래는 신경쓰지 마세요 걍 머글인척 명언 찌끄린 거임...
+    </div>
+</div>
+<div calss="text">       
+    <div id="author" class="author">  - 명언의 저자 -</div>
+    <div id="content" class="content"> " 명언의 내용 "</div>
+</div>
+</body>
+
+</html>
